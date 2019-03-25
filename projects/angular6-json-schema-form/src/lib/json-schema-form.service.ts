@@ -1,4 +1,4 @@
-import cloneDeep from 'lodash-es/cloneDeep';
+import cloneDeep from 'lodash/cloneDeep';
 import Ajv from 'ajv';
 import jsonDraft6 from 'ajv/lib/refs/json-schema-draft-06.json';
 import { AbstractControl, FormArray, FormGroup } from '@angular/forms';

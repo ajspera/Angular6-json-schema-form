@@ -1,5 +1,5 @@
-import cloneDeep from 'lodash-es/cloneDeep';
-import map from 'lodash-es/map';
+import cloneDeep from 'lodash/cloneDeep';
+import map from 'lodash/map';
 import { addClasses, inArray } from '../../shared';
 import {
   ChangeDetectorRef,

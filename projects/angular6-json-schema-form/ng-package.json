@@ -5,11 +5,11 @@
   "lib": {
     "entryFile": "src/public_api.ts",
     "umdModuleIds": {
-      "lodash-es/isEqual": "lodash-es",
-      "lodash-es/cloneDeep": "lodash-es",
-      "lodash-es/filter": "lodash-es",
-      "lodash-es/map": "lodash-es",
-      "lodash-es/uniqueId": "lodash-es",
+      "lodash/isEqual": "lodash",
+      "lodash/cloneDeep": "lodash",
+      "lodash/filter": "lodash",
+      "lodash/map": "lodash",
+      "lodash/uniqueId": "lodash",
       "ajv": "ajv",
       "ajv/lib/refs/json-schema-draft-06.json": "jsonDraft6"
     }
