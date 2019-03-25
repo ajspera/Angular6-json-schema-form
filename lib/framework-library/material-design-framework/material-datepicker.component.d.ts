@@ -1,7 +1,8 @@
-import { OnInit, OnChanges } from '@angular/core';
+import { OnInit } from '@angular/core';
 import { AbstractControl } from '@angular/forms';
 import { JsonSchemaFormService } from '../../json-schema-form.service';
-export declare class MaterialDatepickerComponent implements OnInit, OnChanges {
+import { MatDatepickerInputEvent } from '@angular/material/datepicker';
+export declare class MaterialDatepickerComponent implements OnInit {
     private jsf;
     formControl: AbstractControl;
     controlName: string;
@@ -16,7 +17,6 @@ export declare class MaterialDatepickerComponent implements OnInit, OnChanges {
     dataIndex: number[];
     constructor(jsf: JsonSchemaFormService);
     ngOnInit(): void;
-    ngOnChanges(): void;
-    setControlDate(dateString: string): void;
-    updateValue(event: any): void;
+    updateValue(event: MatDatepickerInputEvent<Date>): void;
+    setDate(date: string): void;
 }

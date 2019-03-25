@@ -1,5 +1,5 @@
+import { AsyncIValidatorFn, IValidatorFn, SchemaPrimitiveType } from './validator.functions';
 import { AbstractControl, ValidationErrors, ValidatorFn } from '@angular/forms';
-import { SchemaPrimitiveType, IValidatorFn, AsyncIValidatorFn } from './validator.functions';
 import { JsonSchemaFormatNames } from './format-regex.constants';
 /**
  * 'JsonValidators' class

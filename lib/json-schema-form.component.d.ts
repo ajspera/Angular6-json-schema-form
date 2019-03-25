@@ -2,8 +2,8 @@ import { ChangeDetectorRef, EventEmitter, OnChanges, OnInit } from '@angular/cor
 import { ControlValueAccessor } from '@angular/forms';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 import { FrameworkLibraryService } from './framework-library/framework-library.service';
-import { WidgetLibraryService } from './widget-library/widget-library.service';
 import { JsonSchemaFormService } from './json-schema-form.service';
+import { WidgetLibraryService } from './widget-library/widget-library.service';
 export declare const JSON_SCHEMA_FORM_VALUE_ACCESSOR: any;
 /**
  * @module 'JsonSchemaFormComponent' - Angular JSON Schema Form
@@ -134,7 +134,7 @@ export declare class JsonSchemaFormComponent implements ControlValueAccessor, On
      * 1. options - recommended
      * 2. form.options - Single input style
      */
-    private initializeOptions();
+    private initializeOptions;
     /**
      * 'initializeSchema' function
      *
@@ -151,7 +151,7 @@ export declare class JsonSchemaFormComponent implements ControlValueAccessor, On
      * 6. If layout input - build schema from layout
      * 7. If data input - build schema from data
      */
-    private initializeSchema();
+    private initializeSchema;
     /**
      * 'initializeData' function
      *
@@ -166,7 +166,7 @@ export declare class JsonSchemaFormComponent implements ControlValueAccessor, On
      * 6. form.formData - For easier testing of React JSON Schema Forms
      * 7. (none) no data - initialize data from schema and layout defaults only
      */
-    private initializeData();
+    private initializeData;
     /**
      * 'initializeLayout' function
      *
@@ -188,7 +188,7 @@ export declare class JsonSchemaFormComponent implements ControlValueAccessor, On
      * 2. form.customFormItems - JSON Form style
      * 3. (none) no input - don't import
      */
-    private initializeLayout();
+    private initializeLayout;
     /**
      * 'activateForm' function
      *
@@ -202,5 +202,5 @@ export declare class JsonSchemaFormComponent implements ControlValueAccessor, On
      * subscribe to changes,
      * and activate the form.
      */
-    private activateForm();
+    private activateForm;
 }

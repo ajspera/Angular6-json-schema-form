@@ -1,5 +1,5 @@
-import { WidgetLibraryService } from '../widget-library/widget-library.service';
 import { Framework } from './framework';
+import { WidgetLibraryService } from '../widget-library/widget-library.service';
 export declare class FrameworkLibraryService {
     private frameworks;
     private widgetLibrary;

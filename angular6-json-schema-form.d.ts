@@ -30,9 +30,9 @@ export { MaterialSliderComponent as ɵbv } from './lib/framework-library/materia
 export { MaterialStepperComponent as ɵbw } from './lib/framework-library/material-design-framework/material-stepper.component';
 export { MaterialTabsComponent as ɵbx } from './lib/framework-library/material-design-framework/material-tabs.component';
 export { MaterialTextareaComponent as ɵby } from './lib/framework-library/material-design-framework/material-textarea.component';
-export { NoFrameworkComponent as ɵbd } from './lib/framework-library/no-framework/no-framework.component';
-export { NoFramework as ɵbe } from './lib/framework-library/no-framework/no.framework';
-export { JsonSchemaFormModule as ɵbc } from './lib/json-schema-form.module';
+export { NoFrameworkComponent as ɵbc } from './lib/framework-library/no-framework/no-framework.component';
+export { NoFramework as ɵbd } from './lib/framework-library/no-framework/no.framework';
+export { JsonSchemaFormModule as ɵbe } from './lib/json-schema-form.module';
 export { AddReferenceComponent as ɵf } from './lib/widget-library/add-reference.component';
 export { ButtonComponent as ɵh } from './lib/widget-library/button.component';
 export { CheckboxComponent as ɵi } from './lib/widget-library/checkbox.component';

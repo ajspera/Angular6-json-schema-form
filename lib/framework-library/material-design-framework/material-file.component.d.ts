@@ -1,5 +1,5 @@
-import { OnInit } from '@angular/core';
 import { AbstractControl } from '@angular/forms';
+import { OnInit } from '@angular/core';
 import { JsonSchemaFormService } from '../../json-schema-form.service';
 export declare class MaterialFileComponent implements OnInit {
     private jsf;

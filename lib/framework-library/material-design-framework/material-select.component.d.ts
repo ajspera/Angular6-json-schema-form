@@ -1,7 +1,7 @@
-import { OnInit } from '@angular/core';
 import { AbstractControl } from '@angular/forms';
-import { JsonSchemaFormService } from '../../json-schema-form.service';
 import { isArray } from '../../shared';
+import { OnInit } from '@angular/core';
+import { JsonSchemaFormService } from '../../json-schema-form.service';
 export declare class MaterialSelectComponent implements OnInit {
     private jsf;
     formControl: AbstractControl;
